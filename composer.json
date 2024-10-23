@@ -6,8 +6,8 @@
     "license": "MIT",
     "require": {
         "monsieurbiz/sylius-plus-adapter-plugin": "dev-sylius-20-adaptations",
-        "monsieurbiz/sylius-media-manager-plugin": "^1.1",
-        "monsieurbiz/sylius-rich-editor-plugin": "^2.8",
+        "monsieurbiz/sylius-media-manager-plugin": "dev-sylius-20-adaptation",
+        "monsieurbiz/sylius-rich-editor-plugin": "dev-sylius-20-adaptation",
         "php": "^8.0",
         "sylius/sylius": "^2.0.0-alpha.2"
     },
