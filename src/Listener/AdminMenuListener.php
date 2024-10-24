@@ -21,14 +21,14 @@ final class AdminMenuListener
     {
         $menu = $event->getMenu();
 
-        if (!$content = $menu->getChild('monsieurbiz-cms')) {
+        if (!$content = $menu->getChild('monsieurbiz_cms')) {
             $content = $menu
-                ->addChild('monsieurbiz-cms')
+                ->addChild('monsieurbiz_cms')
                 ->setLabel('monsieurbiz_cms_page.ui.cms_content')
             ;
         }
 
-        $content->addChild('monsieurbiz-cms-page', ['route' => 'monsieurbiz_cms_page_admin_page_index'])
+        $content->addChild('monsieurbiz_cms_page', ['route' => 'monsieurbiz_cms_page_admin_page_index'])
             ->setLabel('monsieurbiz_cms_page.ui.pages')
             ->setLabelAttribute('icon', 'file alternate')
         ;

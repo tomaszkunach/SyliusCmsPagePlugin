@@ -1,0 +1,22 @@
+twig_hooks:
+    hooks:
+        'sylius_admin.page.create#javascripts':
+            scripts:
+                template: '@MonsieurBizSyliusCmsPagePlugin/Admin/Page/_js.html.twig'
+            
+        'sylius_admin.page.create.content.form':
+            form: 
+                template: '@MonsieurBizSyliusCmsPagePlugin/Admin/Page/_form.html.twig'
+                
+        'sylius_admin.page.update#javascripts':
+            scripts:
+                template: '@MonsieurBizSyliusCmsPagePlugin/Admin/Page/_js.html.twig'
+        
+        'sylius_admin.page.update.content.form':
+            form:
+                template: '@MonsieurBizSyliusCmsPagePlugin/Admin/Page/_form.html.twig'
+
+        'sylius_admin.page.update.content.header.title_block.actions':
+            shop:
+                template: '@MonsieurBizSyliusCmsPagePlugin/Admin/Page/_showInShopButton.html.twig'
+                priority: -400

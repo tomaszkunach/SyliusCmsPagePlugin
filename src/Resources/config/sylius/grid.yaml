@@ -31,7 +31,7 @@ sylius_grid:
                     type: twig
                     label: sylius.ui.channels
                     options:
-                        template: '@SyliusAdmin/Grid/Field/_channels.html.twig'
+                        template: '@SyliusAdmin/shared/grid/field/channels.html.twig'
                 enabled:
                     type: twig
                     label: monsieurbiz_cms_page.ui.form.enabled

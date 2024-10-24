@@ -1,0 +1,40 @@
+monsieurbiz_cms_page:
+  ui:
+    page: "Puslapis"  
+    pages: "Puslapiai"
+    new_page: "Naujas puslapis"
+    edit_page: "Redaguoti puslapį"
+    cms_content: "CMS turinys"
+    pages_subheader: "CMS Puslapio valdymas"
+    back_to_admin: "Grįžti į admin"
+    form:
+      id: 'ID'
+      page_info: 'Puslapio informacija'
+      page_content: 'Puslapio turinys'
+      enabled: "Įjungta"
+      channels: "Kanalai"
+      title: "Pavadinimas"
+      slug: "Slug"
+      code: "Kodas"
+      content: "Turinys"
+      meta_title: "Meta pavadinimas"
+      meta_description: "Meta aprašymas"
+      meta_keywords: "Meta raktinis žodis"
+      meta_image: "Meta vaizdas"
+      meta_image_help: "Idealus formatas: 1200 x 630 px"
+    show_in: "Rodyti"
+    show_page_in_shop_page: "Rodyti puslapį parduotuvės puslapyje"
+    actions:
+      create: 'Sukurti naują puslapį'
+      preview: 'Peržiūra'
+    banner:
+      preview: 'Peržiūra'
+    translation: 'Vertimai'
+monsieurbiz_menu:
+    provider:
+        page: 'Puslapis'
+sylius_plus:
+  rbac:
+    parent:
+      page: 'Puslapis'
+      pages: 'Puslapiai'
