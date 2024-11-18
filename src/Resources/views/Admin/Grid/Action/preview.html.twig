@@ -1,5 +1,5 @@
-{% import '@SyliusUi/Macro/buttons.html.twig' as buttons %}
+{% import '@SyliusAdmin/shared/helper/button.html.twig' as button %}
 
 {% set path = options.link.url|default(path(options.link.route|default(grid.requestConfiguration.getRouteName('preview')), options.link.parameters|default({'id': data.id}))) %}
 
-{{ buttons.default(path, 'monsieurbiz_cms_page.ui.actions.preview', null, 'eye', 'blue') }}
+{{ button.default({url: path, class: 'btn btn-icon', icon: 'tabler:eye', text: ''}) }}

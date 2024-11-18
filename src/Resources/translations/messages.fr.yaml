@@ -1,5 +1,6 @@
 monsieurbiz_cms_page:
   ui:
+    page: "Page"
     pages: "Pages"
     new_page: "Nouvelle page"
     edit_page: "Éditer une page"
@@ -28,6 +29,7 @@ monsieurbiz_cms_page:
       preview: 'Prévisualiser'
     banner:
       preview: 'Prévisualisation'
+    translation: 'Translations'
 monsieurbiz_menu:
     provider:
         page: 'Page'

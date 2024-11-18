@@ -25,7 +25,7 @@ class PageUrlProvider extends AbstractUrlProvider
 
     protected string $code = self::PROVIDER_CODE;
 
-    protected string $icon = 'file alternate';
+    protected string $icon = 'tabler:brand-pagekit';
 
     protected int $priority = 40;
 

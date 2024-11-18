@@ -4,15 +4,13 @@ monsieurbiz_sylius_cms_page_admin:
         alias: monsieurbiz_cms_page.page
         section: admin
         permission: true
-        templates: "@SyliusAdmin\\Crud"
+        templates: "@SyliusAdmin\\shared\\crud"
         except: ['show', 'update']
         redirect: update
         grid: monsieurbiz_cms_page
         vars:
             all:
                 subheader: monsieurbiz_cms_page.ui.pages_subheader
-                templates:
-                    form: "@MonsieurBizSyliusCmsPagePlugin/Admin/Page/_form.html.twig"
             index:
                 icon: 'file alternate'
     type: sylius.resource
@@ -33,13 +31,10 @@ monsieurbiz_cms_page_admin_page_update:
             section: admin
             permission: true
             redirect: referer
-            template: "@SyliusAdmin/Crud/update.html.twig"
+            template: "@SyliusAdmin\\shared\\crud\\update.html.twig"
             vars:
                 subheader: monsieurbiz_cms_page.ui.pages_subheader
                 icon: file alternate
-                templates:
-                    form: "@MonsieurBizSyliusCmsPagePlugin/Admin/Page/_form.html.twig"
-                    toolbar: "@MonsieurBizSyliusCmsPagePlugin/Admin/Page/Update/_toolbar.html.twig"
 
 # Page preview
 monsieurbiz_cms_page_admin_page_preview:
